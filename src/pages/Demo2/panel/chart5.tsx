@@ -14,11 +14,12 @@ type PieOption = ComposeOption<
 
 const data = [582, 421.2, 622.1, 625.3, 265, 224];
 const indicator = [
-  { name: "成都市", max: 1000 },
-  { name: "德阳市", max: 1000 },
-  { name: "绵阳市", max: 1000 },
-  { name: "宜宾市", max: 1000 },
-  { name: "达州市", max: 1000 },
+  { name: "南昌市", max: 1000 },
+  { name: "赣州市", max: 1000 },
+  { name: "九江市", max: 1000 },
+  { name: "宜春市", max: 1000 },
+  { name: "上饶市", max: 1000 },
+  { name: "吉安市", max: 1000 },
 ];
 
 export default function Chart5() {

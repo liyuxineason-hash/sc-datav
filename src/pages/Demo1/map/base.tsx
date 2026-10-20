@@ -15,8 +15,8 @@ import City, { type CityProps } from "./city";
 import loadTexture from "../helpers/loadTexture";
 import { useConfigStore } from "../stores";
 
-import map from "@/assets/sc_map.png";
-import normalMap from "@/assets/sc_normal_map.png";
+import map from "@/assets/jx_map.png";
+import normalMap from "@/assets/jx_normal_map.png";
 import Heatmap from "./heatmap";
 
 export interface BaseProps {

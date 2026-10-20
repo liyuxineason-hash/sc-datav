@@ -24,7 +24,7 @@ import Boundary from "./boundary";
 import Label from "./label";
 import { useConfigStore } from "../stores";
 
-import scNormalMap from "@/assets/sc_normal_map1.png";
+import scNormalMap from "@/assets/jx_normal_map1.png";
 import Cones from "./cone";
 
 export interface BaseProps {

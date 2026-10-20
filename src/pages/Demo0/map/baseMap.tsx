@@ -13,10 +13,10 @@ import ShapeBox from "./shape";
 import type { GeoProjection } from "d3-geo";
 import type { CityGeoJSON } from "@/types/map";
 
-import scMapData from "@/assets/sc.json";
-import textureMap from "@/assets/sc_map.png";
-import scNormalMap from "@/assets/sc_normal_map.png";
-import scDisplacementMap from "@/assets/sc_displacement_map.png";
+import scMapData from "@/assets/jx.json";
+import textureMap from "@/assets/jx_map.png";
+import scNormalMap from "@/assets/jx_normal_map.png";
+import scDisplacementMap from "@/assets/jx_displacement_map.png";
 
 const data = scMapData as CityGeoJSON;
 
@@ -88,7 +88,7 @@ export default function BaseMap({ projection }: { projection: GeoProjection }) {
 
           <group position={[0, 0, 0.6]}>
             <Billboard position={reg.center}>
-              <Text color="#ffffff" fontSize={0.3} fontWeight={600}>
+              <Text font="/sc-datav/font/pmzd.ttf" color="#ffffff" fontSize={0.3} fontWeight={600}>
                 {reg.name}
               </Text>
             </Billboard>
@@ -119,7 +119,7 @@ export default function BaseMap({ projection }: { projection: GeoProjection }) {
 
           <group position={[0, 0, 0.2]}>
             <Billboard position={reg.center}>
-              <Text color="#ffffff" fontSize={0.3} fontWeight={600}>
+              <Text font="/sc-datav/font/pmzd.ttf" color="#ffffff" fontSize={0.3} fontWeight={600}>
                 {reg.name}
               </Text>
             </Billboard>

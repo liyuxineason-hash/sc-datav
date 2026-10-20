@@ -112,3 +112,20 @@ pnpm build
 # 预览构建结果
 pnpm preview
 ```
+
+---
+
+## 声明与致谢（Fork 修改说明）
+
+本项目基于 [knight-L/sc-datav](https://github.com/knight-L/sc-datav) 二次开发，原作者为 **knight-L**，原项目使用 [Apache License 2.0](./LICENSE) 协议开源。
+
+本仓库在其基础上做了以下修改（四川 → 江西）：
+
+- 地图地理数据由四川省替换为江西省（含省市边界 GeoJSON）
+- 重新生成江西省地图贴图（风格化科技风底图、平坦法线/置换贴图）
+- 热力图数据重新采样至江西省域范围
+- 各地市业务数据（人口 / GDP / 面积）替换为江西 11 个地级市
+- 页面标题、图表维度等文案同步替换为江西省相关内容
+- 修复 3D 文字标签依赖在线 CDN 字体的问题，改用项目内置本地字体（ttf）
+
+依照 Apache License 2.0 协议要求，原始许可证文件予以保留；在此向原作者 [knight-L](https://github.com/knight-L) 表示感谢！
